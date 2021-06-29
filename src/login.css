@@ -1,0 +1,68 @@
+.login-conatainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}.login-body{
+    background-color: #3a3241;
+    width: 330px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+     border-radius: 2px;
+}
+.login-form{
+    /* font-family: Roboto Family ; */
+    color:white;
+    background-color: #1a1221;  
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}.login-form .login{
+    font-family: 'Roboto', sans-serif,thin;
+   margin-left: 20px;
+   color: white;
+   font-size: 30px;
+}.login-form #logo-img{
+    width: 50px;
+    margin-left: 20px;
+}.lorem-text{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 20px;
+}.form-control{
+    width: 85%;
+    background-color:#1a1221 ;
+    color: white;
+    align-items: center;
+    margin-left: 20px;
+    
+}.remind-forgot{
+    display: flex;
+    justify-content: space-between;
+    
+}.lorem-text1{
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 25px;
+}.lorem-text2{
+
+    font-size: 10px;
+    font-weight: lighter;
+    margin-right: 20px;
+}.btn-primary{
+    background-color: #7200fc;
+    width: 85%;
+    margin-left: 20px;
+}.terms-text{
+
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 30px;
+}
